@@ -2,7 +2,7 @@
 ## 问题
 makepolo有一张creative表和creative_report表。creative_report表现在一天有30万左右，creative表有几百万。
 
-现在有个需求是查询一年内的创意维度的汇总数据，并且可以根据创意名字和状态进行过滤和支持根据聚合结果排序分页。
+现在有个需求是查询一年内的创意维度的汇总数据，并且可以根据创意名字、状态进行过滤和支持根据聚合结果排序分页。
 
 目前是根据creative id join两张表来实现，随着数据量越来越多，已经不可能做到秒级查询。
 
@@ -11,6 +11,7 @@ makepolo有一张creative表和creative_report表。creative_report表现在一�
 2. 更换存储引擎，调研es的聚合排序分页能力。
 
 ### 分库分表
+不在本文范围内
 
 ### es调研
 
